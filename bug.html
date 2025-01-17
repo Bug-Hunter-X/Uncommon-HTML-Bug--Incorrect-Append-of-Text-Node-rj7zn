@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    //Incorrectly attempting to add a text node to the div element
+    document.getElementById("myDiv").appendChild("More text");
+  </script>
+</body>
+</html>
