@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in HTML where a string is incorrectly appended to a div element instead of a properly created text node. This leads to the string not being rendered as expected. The bug and its solution are detailed in the respective HTML files.
