@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    // Correctly creating and appending a text node to the div element
+    let newTextNode = document.createTextNode("More text");
+    document.getElementById("myDiv").appendChild(newTextNode);
+  </script>
+</body>
+</html>
